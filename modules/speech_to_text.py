@@ -1,12 +1,12 @@
 import requests
-import os
+import os 
 
 class SpeechToText:
-    def __init__(self, api_key, model="whisper-turbo", file_path="temp_audio.wav"):
+    def __init__(self, api_key, model="whisper-large-v3-turbo", file_path="temp.wav"):
         self.api_key = api_key
         self.model = model
         self.file_path = file_path
-        self.api_url = "https://api.groq.com/v1/audio/transcriptions"
+        self.api_url = "https://api.groq.com/openai/v1/audio/transcriptions"
 
     def transcribe(self):
         """Transcribes the audio file using Whisper in Groq API."""
@@ -31,6 +31,6 @@ class SpeechToText:
 
 # Example Usage
 if __name__ == "__main__":
-    API_KEY = "your_groq_api_key"  # Replace with your actual API key
+    API_KEY = "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"  # Replace with your actual API key
     stt = SpeechToText(api_key=API_KEY)
     transcription = stt.transcribe()

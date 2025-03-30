@@ -18,4 +18,4 @@ class AudioPlayer:
 # Example Usage
 if __name__ == "__main__":
     player = AudioPlayer()
-    player.play_audio("responses/greeting.wav")  # Replace with an actual file path
+    player.play_audio("responses/Sample 1_Will pay.wav")  # Replace with an actual file path

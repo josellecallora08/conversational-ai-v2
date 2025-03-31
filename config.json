@@ -1,0 +1,132 @@
+{
+  "data": {
+    "intent": [
+      {
+        "name": "who_are_you",
+        "pattern": "maaari.*ko.*malaman.*kung.*sino.*kayo\nsino.*kayo",
+        "audio": "responses/other_questions_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "confirm_yes",
+        "pattern": "\\b(okay)\\b\n\\b(sige)\\b\n\\b(yes)\\b\n\\b(opo)\\b\n\\b(oo)\\b",
+        "audio": "responses/exit_related_customer_yes_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "confirm_no",
+        "pattern": "\\b(hindi)\\b\n\\b(ayoko)\\b\n\\b(no)\\b\n\\b(di ako sure)\\b",
+        "audio": "responses/exit_related_customer_no_1_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "confirm_again",
+        "pattern": "\\b(okay)\\b\n\\b(sige)\\b\n\\b(yes)\\b\n\\b(opo)\\b\n\\b(oo)\\b",
+        "audio": "responses/exit_related_customer_yes_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "ask_balance",
+        "pattern": "magkano.*utang\nmagkano.*balance\nilan.*kulang.*ko\nupdate.*ng.*account\nremaining.*balance",
+        "audio": "responses/ask_questions_main_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "promise_to_pay",
+        "pattern": "magsisettle.*ako\nmagbabayad.*ako\nmay.*plano.*ako.*magbayad\nbayad.*ako.*sa.*(buwan|araw)\nmagbabayad.*sa.*(linggo|buwan)",
+        "audio": "responses/reverify_name_main_1_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "cannot_pay_now",
+        "pattern": "wala.*pera\nhirap.*ngayon\ndi.*kaya.*ngayon\nnext.*month.*na.*lang\nwala.*akong.*budget",
+        "audio": "responses/exit_cant_pay_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "ask_payment_terms",
+        "pattern": "may.*terms\nmay.*installment\npwede.*hulugan\nano.*options.*ko.*para.*magbayad\npwede.*partial.*payment",
+        "audio": "responses/asking_discount_default_1_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "ask_reference_number",
+        "pattern": "ano.*reference.*number\nmay.*transaction.*id\nresibo.*ko\nproof.*of.*payment\nsaan.*ko.*makikita.*ang.*reference",
+        "audio": "responses/instruction_main_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "ask_discount",
+        "pattern": "may.*discount\nbawas.*bayad\npwede.*makatipid\nnegosasyon.*ng.*balance\npwede.*tumawad",
+        "audio": "responses/asking_discount_main_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "ask_due_date",
+        "pattern": "kailan.*due\nkailan.*deadline\nhanggang.*kailan.*pwede.*magbayad\ndue.*date.*ko",
+        "audio": "responses/ask_questions_main_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "request_callback",
+        "pattern": "pwedeng.*tawagan.*ako\nbalikan.*mo.*ako\npa.*call.*back.*na.*lang\npatawag.*na.*lang.*ako",
+        "audio": "responses/exit_main_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "angry_response",
+        "pattern": "kulit.*nyo\nstop.*calling.*me\nayoko.*na\nnakakainis.*kayo\nwag.*nyo.*na.*akong.*kulitin",
+        "audio": "responses/exit_silent_no_reply_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "greeting",
+        "pattern": "hello\nhi\nhey\nkamusta\nkumusta\nmagandang.*araw",
+        "audio": "responses/greetings_main_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "goodbye",
+        "pattern": "bye\nsee you\ngoodbye\npaalam\nsalamat.*sa.*tulong",
+        "audio": "responses/exit_main_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "call_end",
+        "pattern": "end.*call\nhang.*up\ntapos.*na.*ito\npwede.*na.*mag.*end\nexit.*na.*ako",
+        "audio": "responses/exit_main_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "debt_settled",
+        "pattern": "i.*already.*paid\npayment.*done\ndebt.*is.*cleared\nbayad.*na.*ako\nsettled.*na.*ako",
+        "audio": "responses/already_paid_main_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "request_restructure",
+        "pattern": "pakiusap.*baguhin.*terms\npwede.*i-restructure.*account\nrequest.*ko.*i-ayos.*ulit",
+        "audio": "responses/asking_discount_tail_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "update_contact_info",
+        "pattern": "bago.*number.*ko\nchange.*contact.*info\nupdate.*ko.*details\nbagong.*email.*ko",
+        "audio": "responses/instruction_null_1_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "ask_for_branch",
+        "pattern": "saan.*branch\nmay.*malapit.*na.*branch\navailable.*branch.*locations",
+        "audio": "responses/RCBC_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "ask_for_email_copy",
+        "pattern": "pa.*email.*ng.*copy\nkopya.*sa.*email\nsend.*ko.*via.*email\ngusto.*ko.*ng.*softcopy",
+        "audio": "responses/instruction_main_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "apology",
+        "pattern": "sorry.*po\npasensya.*na\nhumihingi.*ako.*ng.*paumanhin",
+        "audio": "responses/exit_related_customer_no_2_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "thank_you",
+        "pattern": "salamat\nthank.*you\nappreciate.*ko\nthanks.*po",
+        "audio": "responses/greetings_main_tail_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "need_more_time",
+        "pattern": "kulang.*oras\npwede.*next.*week\nkailangan.*ko.*ng.*konting.*panahon",
+        "audio": "responses/exit_not_pay_if_not_discounted_Voice_1_fil-PH.wav"
+      },
+      {
+        "name": "ask_for_agent",
+        "pattern": "pwede.*makipag-usap.*sa.*agent\nkailangan.*ko.*ng.*tao\ngusto.*ko.*ng.*kausap.*na.*totoo",
+        "audio": "responses/exit_wrong_number_main_2_Voice_1_fil-PH.wav"
+      }
+    ],
+    "entity": []
+  }
+}

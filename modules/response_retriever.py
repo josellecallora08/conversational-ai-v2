@@ -5,7 +5,7 @@ class ResponseRetriever:
         """Initializes the class with the directory where responses are stored."""
         self.response_dir = response_dir
         self.intent_to_audio = {
-            "greeting": "Sample 1_Will pay.wav",
+            "greeting": "greetings_default_1_Voice 1_fil-PH.wav",
             "farewell": "farewell.wav",
             "order_status": "order_status.wav",
             "support": "support.wav",
